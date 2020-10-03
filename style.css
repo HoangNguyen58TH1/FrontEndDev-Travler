@@ -1,0 +1,53 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+  /* font-size: 19px; */
+  color: rgba(199, 199, 199, 1) !important;
+  background-color: rgba(235, 235, 235, 1) !important;
+  font-size: 13px;
+}
+.mod-banner{
+  background-image: url(images/Slider.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-bottom: 1px solid #6d6d6d;
+  /*  */
+  height: 552px;
+}
+.color-purple{
+  color: blueviolet !important;
+}
+.line-horizontal{
+  height: 3px;
+  background-color: #6d6d6d;
+}
+.mod-center-main{
+  background-image: url(images/Screen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /*  */
+  height: 537px;
+}
+.mod-center-title{
+  padding-top: 400px;
+}
+.slick-dots li.slick-active button::before {
+  color: blueviolet;
+  opacity: 1;
+}
+.mod-icon-plus{
+  position: relative;
+  top: 30px;
+}
+.padding-60{
+  padding: 60px;
+}
+.mod-footer{
+  border-top: 3px solid blueviolet;
+  padding-bottom: 200px;
+}
