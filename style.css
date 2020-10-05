@@ -43,6 +43,11 @@ h5{
   border-bottom: 1px solid #6d6d6d;
   /*  */
   height: 552px;
+  /* background-size: contain; */
+  background-size: cover;
+  /* background-size: 100% 100%; */
+
+
 }
 .color-purple{
   color: blueviolet !important;
@@ -71,12 +76,12 @@ h5{
   position: relative;
   top: 30px;
 }
-.padding-70{
-  padding: 70px;
-}
 .mod-footer{
   border-top: 3px solid blueviolet;
   padding-bottom: 200px;
+}
+.padding-70{
+  padding: 70px;
 }
 
 /* 04-10-2020 */
@@ -133,4 +138,29 @@ h5{
 .mod-fixed-none{
   position: relative;
   top: 200px;
+}
+
+/* mobile */
+.w-img-100{
+  width: 100% !important;
+}
+/* @media only screen and (min-width: 992px) { */
+
+/* } */
+@media only screen and (max-width: 992px) {
+  .display-none{
+    display: none !important;
+  }
+  .w-input{
+    width: max-content !important;
+  }
+  .p-30{
+    padding: 30px !important;
+  }
+  .fs-24{
+    font-size: 24px !important;
+  }
+  .w-img-m-100{
+    width: 100% !important;
+  }
 }
