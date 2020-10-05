@@ -141,7 +141,7 @@ h5{
 }
 
 /* mobile */
-.w-img-100{
+.w-img-100-perc{
   width: 100% !important;
 }
 /* @media only screen and (min-width: 992px) { */
@@ -160,7 +160,18 @@ h5{
   .fs-24{
     font-size: 24px !important;
   }
-  .w-img-m-100{
-    width: 100% !important;
+  .w-img-m-200{
+    width: 200px !important;
+  }
+  .w-img-m-120{
+    width: 120px !important;
+  }
+  .w-img-m-60{
+    width: 60px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .p-40-sm{
+    padding: 40px !important;
   }
 }
