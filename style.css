@@ -43,7 +43,6 @@ h5{
   border-bottom: 1px solid #6d6d6d;
   /*  */
   height: 552px;
-  top: 200px;
 }
 .color-purple{
   color: blueviolet !important;
@@ -80,7 +79,7 @@ h5{
   padding-bottom: 200px;
 }
 
-/* 10-04-2020 */
+/* 04-10-2020 */
 .line-vertical-20{
   width: 1px;
   height: 20px;
@@ -92,6 +91,7 @@ h5{
 .l-h-24{
   line-height: 24px !important;
 }
+/* 05-10-2020 */
 .underline a:hover{
   /* using text-decoration */
   /* text-decoration: underline 5px blueviolet !important;
@@ -129,4 +129,8 @@ h5{
   top: 0px;
   width: 100%;
   background-color: rgba(235, 235, 235, 1);
+}
+.mod-fixed-none{
+  position: relative;
+  top: 200px;
 }
