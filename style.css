@@ -43,6 +43,7 @@ h5{
   border-bottom: 1px solid #6d6d6d;
   /*  */
   height: 552px;
+  top: 200px;
 }
 .color-purple{
   color: blueviolet !important;
@@ -110,11 +111,7 @@ h5{
   position: relative;
   bottom: 10px;
 }
-/* .mod-header{
-  position: relative;
-} */
 .mod-menu{
-  /* position: fixed; */
   position: relative;
   top: 15px;
   z-index: 1000;
@@ -125,4 +122,11 @@ h5{
 .mod-menu div a:hover{
   color: blueviolet !important;
   text-decoration: none;
+}
+.mod-fixed{
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(235, 235, 235, 1);
 }
