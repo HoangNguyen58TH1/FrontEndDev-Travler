@@ -92,10 +92,37 @@ h5{
   line-height: 24px !important;
 }
 .underline a:hover{
+  /* using text-decoration */
+  /* text-decoration: underline 5px blueviolet !important;
   text-decoration-line: underline !important;
   text-decoration-color: blueviolet !important;
-  text-decoration-thickness: 10px !important;
-  /* text-decoration-thickness: 3px; */
-  /* text-decoration-style: 10px; */
-  background-color: rgba(199, 199, 199, 1);
+  text-decoration-thickness: 5px !important; */
+  border-bottom: 5px solid blueviolet;   /* using botder-bottom */
+}
+.border-menu{
+  border: 0px 1px solid transparent;
+  border-bottom: solid 5px blueviolet !important;
+  background-image: linear-gradient(#FFF, #FFF, #c1bdbd9e);
+}
+.border-menu:hover {
+  border-bottom: solid 10px blueviolet !important;
+  background-image: none !important;
+  position: relative;
+  bottom: 10px;
+}
+/* .mod-header{
+  position: relative;
+} */
+.mod-menu{
+  /* position: fixed; */
+  position: relative;
+  top: 15px;
+  z-index: 1000;
+}
+.mod-menu div a{
+  color: rgba(199, 199, 199, 1) !important;
+}
+.mod-menu div a:hover{
+  color: blueviolet !important;
+  text-decoration: none;
 }
