@@ -18,3 +18,6 @@ body
 jquery-3.2.1.min.js
 slick.js
 
+- Độ ưu tiên trong css
++ inline !important > !important > inline > id > class || attribute > tag( 2tag > 1tag)
++ Độ ưu tiên trong CSS sẽ lấy từ dưới lên trên.
